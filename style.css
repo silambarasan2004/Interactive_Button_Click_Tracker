@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #dec1e7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.clickBox {
+  text-align: center;
+  width: 300px;
+  height: 200px;
+  background: #ddecc5;
+  padding: 2rem;
+  border-radius: 12px;
+}
+
+.Heading {
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+#btnClick {
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #007acc;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+#btnClick:hover {
+  background-color: #005fa3;
+}
+
+.clickValue {
+  margin-top: 1rem;
+  font-size: 24px;
+  color: #222;
+}
